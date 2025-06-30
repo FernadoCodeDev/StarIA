@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Header from "../layouts/Header";
 import NavBar from "../layouts/Navbar";
 import Icons from "../components/ui/Icons";
 import Arrow from "../assets/svg/Arrow";
@@ -14,37 +15,40 @@ import Arrow from "../assets/svg/Arrow";
 
     <title>Astro</title>
   </head>
-  <body>
-    <div
-      class="flex flex-row min-h-screen gap-4 text-black bg-white dark:text-white dark:bg-neutral-800"
-    >
+  <body class="text-black bg-white dark:text-white dark:bg-neutral-800">
+    <div class="flex flex-row min-h-screen">
+      
       <NavBar client:load />
 
-      <div class="flex flex-col gap-4 p-4 w-full max-w-[50rem] m-auto">
-        <div class="flex flex-col gap-4">
+      <main class="flex-1 w-full">
+        <Header client:load />
+
+        <section class="flex flex-col gap-4 p-4 w-full max-w-[50rem] mx-auto">
+       
           <div class="text-center loading">
             <i class="block mb-2 animate-spin">⏳</i>
             <h4>Cargando...</h4>
             <h5>Esto puede tardar un poco. Paciencia.</h5>
           </div>
-        </div>
 
-        <form
-          class="max-w-[80rem] text-black rounded-2xl grid grid-cols-4 w-full p-2 mb-4 border bg-slate-100 dark:bg-neutral-800 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800"
-        >
-          <textarea
-            class="flex-1 col-span-3 p-2 border "
-            placeholder="Pregunta lo que quieras"
-          />
-          <button class="p-2 text-white bg-emerald-800">
-            <Arrow  width="12" height="12"/>
-          </button>
+      
+          <form
+            class="max-w-[80rem] text-black dark:text-white rounded-2xl grid grid-cols-4 gap-4 w-full p-2 mb-4 border bg-slate-100 dark:bg-neutral-800 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800"
+          >
+            <textarea
+              class="flex-1 col-span-3 p-2 bg-white border dark:bg-neutral-700"
+              placeholder="Pregunta lo que quieras"
+            ></textarea>
+            <button class="p-2 text-white bg-emerald-800">
+              <Arrow width="12" height="12" />
+            </button>
 
-          <div class="w-full h-auto col-span-4 text-white">
-            <Icons />
-          </div>
-        </form>
-      </div>
+            <div class="w-full h-auto col-span-4 text-white">
+              <Icons />
+            </div>
+          </form>
+        </section>
+      </main>
     </div>
   </body>
 </html>

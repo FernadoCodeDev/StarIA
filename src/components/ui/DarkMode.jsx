@@ -23,12 +23,15 @@ const DarkMode = () => {
   }, [darkMode]);
 
   return (
-    <img
-      src="/img/DarkMode.webp"
-      alt="DarkModeIcon"
-      class="w-8 h-auto cursor-pointer"
+    <button
       onClick={() => setDarkMode(!darkMode)}
-    />
+    >
+      <img
+        src="/img/DarkMode.webp"
+        alt="DarkModeIcon"
+        className="w-8 h-auto cursor-pointer invert dark:invert-0"
+      />
+    </button>
   );
 };
 
