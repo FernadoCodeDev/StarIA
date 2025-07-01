@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DarkMode from "../components/ui/DarkMode";
+import DropDown from "../components/ui/DropDown";
 
 const Header = () => {
   return (
@@ -14,11 +15,7 @@ const Header = () => {
         </div>
 
         <div className="flex flex-row gap-4">
-          <select name="..." className="text-black bg-white dark:bg-neutral-800 dark:text-white">
-            <option value="" disabled selected> ... </option>
-            <option value="">Archivar</option>
-            <option value="">Eliminar</option>
-          </select>
+          <DropDown />
 
           <DarkMode />
         </div>
