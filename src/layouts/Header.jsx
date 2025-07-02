@@ -10,9 +10,7 @@ const Header = () => {
           <h1 className="text-xl font-bold md:text-3xl">Prisma</h1>
         </div>
 
-        <div className="hidden md:block">
-          <h1 className="text-xl font-bold">Memoria Libre </h1>
-        </div>
+      
 
         <div className="flex flex-row gap-4">
           <DropDown />
