@@ -2,9 +2,10 @@
 import "../styles/global.css";
 import Header from "../layouts/Header";
 import NavBar from "../layouts/Navbar";
-import Icons from "../components/ui/Icons";
-import Arrow from "../assets/svg/Arrow";
+
 import Hourglass from "../components/ui/Hourglass";
+import Chat from "../components/ui/chat"
+import ChatBox from "../components/ui/chatBox"
 ---
 
 <html lang="en">
@@ -32,54 +33,10 @@ import Hourglass from "../components/ui/Hourglass";
               <h1>Esto puede tardar un poco...</h1>
             </div>
 
-            <div class="flex flex-col w-full gap-4 p-4">
-              <div class="flex justify-start">
-                <div
-                  class="p-3 bg-white dark:bg-neutral-800 text-black dark:text-white rounded-xl max-w-[70%]"
-                >
-                 Lorem ipsum dolor sit amet consectetur,
-                </div>
-              </div>
+           <Chat client:load />
+           <ChatBox client:load />
 
-              <div class="flex justify-end">
-                <div
-                  class="p-3 bg-emerald-100 dark:bg-emerald-700 text-black dark:text-white rounded-xl max-w-[70%]"
-                >
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Perspiciatis culpa possimus architecto velit illum. Omnis
-                  vitae cum dolore sit consectetur, expedita dicta rem porro
-                  facilis nostrum maxime quidem alias impedit.
-                </div>
-              </div>
-
-              <div class="flex justify-start">
-                <div
-                  class="p-3 bg-white dark:bg-neutral-800 text-black dark:text-white rounded-xl max-w-[70%]"
-                >
-                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Perspiciatis culpa possimus architecto velit illum. Omnis
-                  vitae cum dolore sit consectetur, expedita dicta rem porro
-                  facilis nostrum maxime quidem alias impedit.
-                </div>
-              </div>
-            </div>
-
-            <form
-              class="max-w-[80rem] text-black bg-slate-50 dark:text-white rounded-2xl grid grid-cols-6 gap-4 w-full p-2 mb-4 border dark:bg-neutral-800 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800"
-            >
-              <textarea
-                class="flex-1 col-span-5 p-2 bg-white border dark:bg-neutral-700 min-h-8 max-h-28"
-                placeholder="Pregunta lo que quieras"></textarea>
-              <button
-                class="flex flex-row items-center justify-center w-full h-full p-2 text-white bg-emerald-800"
-              >
-                <Arrow width="16" height="16" />
-              </button>
-
-              <div class="w-full h-auto col-span-6 text-white">
-                <Icons />
-              </div>
-            </form>
+           
           </section>
         </div>
       </main>
