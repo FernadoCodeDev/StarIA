@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ChatBox from './chatBox';
+import ChatBox from './ChatBox';
 import { sendOpenAIMessage } from '../../utils/openai';
 
 interface message {
