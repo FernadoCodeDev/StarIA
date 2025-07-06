@@ -6,3 +6,7 @@
 Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional, con foco en simplicidad, usabilidad y una estética profesional y moderna.
 
 **Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas sin complicarse con desarrollos complejos.**
+
+## 🛠 Tecnologías utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=astro,react,typescript,tailwind)](https://skillicons.dev)
