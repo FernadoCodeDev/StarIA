@@ -53,7 +53,7 @@ const NawBar = () => {
           <img
             src="/img/Logo.webp"
             alt="Logo"
-            className="w-20 h-auto p-2 invert-0 dark:invert"
+            className="w-20 h-auto p-2 invert dark:invert-0"
           />
 
           <button
