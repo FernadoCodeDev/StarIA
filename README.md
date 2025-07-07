@@ -11,7 +11,7 @@ Una plataforma visual y funcional para configurar agentes de inteligencia artifi
 
 [![My Skills](https://skillicons.dev/icons?i=astro,react,typescript,tailwind)](https://skillicons.dev)
 
-## 🛠️ ¿Cómo nació Prisma?
+## ¿Cómo nació Prisma?
 Prisma nació como respuesta a una prueba técnica, cuyo reto consistía en diseñar e implementar un prototipo visual de una plataforma para configurar un agente de IA conversacional.
 
 Aproveché esta oportunidad como un ejercicio práctico para integrar inteligencia artificial y, al mismo tiempo, aprender y consolidar mis conocimientos en tecnologías modernas del ecosistema web.
