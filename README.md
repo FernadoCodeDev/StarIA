@@ -1,4 +1,4 @@
-![Prisma](https://github.com/FernadoCodeDev/Prisma/blob/main/public/img/Logo.webp)
+![Prisma](https://github.com/FernadoCodeDev/Prisma/blob/main/public/img/imageReadme.webp)
 
 # **PRISMA**
 
