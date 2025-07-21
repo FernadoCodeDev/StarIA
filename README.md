@@ -36,5 +36,5 @@ Si deseas ver Prisma en funcionamiento, puedes:
 - Crear tu propia clave en https://platform.openai.com/.
 - Integrar la clave como variable de entorno en el proyecto.
 
-StarIA está listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+**StarIA** está listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
 
