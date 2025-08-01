@@ -9,7 +9,15 @@ Una plataforma visual y funcional para configurar agentes de inteligencia artifi
 
 ## 🛠 Tecnologías utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=astro,react,typescript,tailwind)](https://skillicons.dev)
+<div align="left">
+
+![astro](https://img.shields.io/static/v1?message=astro&logo=astro&label=&color=df3770&logoColor=white&labelColor=&style=for-the-badge)
+![React](https://img.shields.io/static/v1?message=React&logo=React&label=&color=1082a7&logoColor=white&labelColor=&style=for-the-badge)
+![typescript](https://img.shields.io/static/v1?message=typescript&logo=typescript&label=&color=2f74c0&logoColor=white&labelColor=&style=for-the-badge)
+![TailwindCSS](https://img.shields.io/static/v1?message=TailwindCSS&logo=TailwindCSS&label=&color=3ebff8&logoColor=white&labelColor=&style=for-the-badge)
+![openai](https://img.shields.io/static/v1?message=API-de-OpenAI&logo=openai&label=&color=0ea47e&logoColor=white&labelColor=&style=for-the-badge)
+
+  </div >
 
 ## ¿Cómo nació StarIA?
 StarIA nació como respuesta a una prueba técnica, cuyo reto consistía en diseñar e implementar un prototipo visual de una plataforma para configurar un agente de IA conversacional.
@@ -37,4 +45,5 @@ Si deseas ver Prisma en funcionamiento, puedes:
 - Integrar la clave como variable de entorno en el proyecto.
 
 **StarIA** está listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
 
