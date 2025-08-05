@@ -34,16 +34,17 @@ Decidí construir Prisma con el siguiente stack:
 Durante el desarrollo, busqué no solo resolver el desafío técnico, sino también crear una solución útil, escalable y visualmente atractiva que pueda evolucionar en futuros proyectos reales.
 
 ## ⚠️ Nota importante:
-Si visitas StarIA e intentas interactuar con el agente, este te responderá con **“Sin respuesta”**. Esto es intencional: la plataforma está totalmente preparada para funcionar, pero no se conecta realmente con la API de OpenAI, ya que esta tiene un costo por uso.
+Si visitas **StarIA** e intentas interactuar con el agente, este te responderá con **“Sin respuesta”**. Esto es intencional: la plataforma está totalmente preparada para funcionar, pero no se conecta realmente con la API de OpenAI, ya que esta tiene un costo por uso.
 
 Para evitar errores o gastos inesperados, programé una función que simula la respuesta sin hacer la llamada real.
 
-Si deseas ver Prisma en funcionamiento, puedes:
+Si deseas ver **StarIA** en funcionamiento, puedes:
 
 - Clonar el repositorio.
 - Crear tu propia clave en https://platform.openai.com/.
 - Integrar la clave como variable de entorno en el proyecto.
 
 **StarIA** está listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
 
 
