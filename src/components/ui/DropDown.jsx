@@ -9,13 +9,13 @@ const ChatActions = () => {
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="px-3 py-2 text-black bg-white border rounded-md dark:bg-neutral-800 dark:text-white"
+        className="px-3 py-2 text-zinc-950 bg-slate-100 border rounded-md dark:bg-zinc-950 dark:text-slate-100"
       >
         Acciones ▾
       </button>
 
       {open && (
-        <ul className="absolute z-10 w-40 mt-2 bg-white border rounded shadow-lg dark:bg-neutral-800">
+        <ul className="absolute z-10 w-40 mt-2 bg-slate-100 border rounded shadow-lg dark:bg-zinc-950">
           <li className="flex items-center gap-2 p-2 cursor-pointer hover:bg-cyan-100 hover:text-cyan-600">
             <File className="w-4 h-4 text-cyan-600" /> Archivar
           </li>

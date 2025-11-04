@@ -5,7 +5,7 @@ import DropDown from "../components/ui/DropDown";
 const Header = () => {
   return (
     <div className="">
-      <div className="flex flex-row items-center justify-between w-full h-20 gap-4 p-4 text-black bg-white dark:bg-neutral-800 align-center dark:text-white">
+      <div className="flex flex-row items-center justify-between w-full h-20 gap-4 p-4 bg-slate-100 dark:text-slate-100 dark:bg-zinc-950 align-center">
         <div className="">
           <h1 className="text-xl font-bold md:text-3xl">StarIA</h1>
         </div>
