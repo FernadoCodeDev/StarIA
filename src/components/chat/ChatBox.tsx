@@ -26,7 +26,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ onSend }) => {
       <textarea
         value={Message}
         onChange={(e) => setMessage(e.target.value)}
-        className="flex-1 col-span-5 p-2 bg-slate-100 border dark:bg-zinc-950 min-h-8 max-h-28"
+        className="flex-1 col-span-5 p-2 border bg-slate-100 dark:bg-zinc-950 min-h-8 max-h-28"
         placeholder="Pregunta lo que quieras"
       ></textarea>
 

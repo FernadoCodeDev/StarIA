@@ -29,10 +29,10 @@ const Chat: React.FC = () => {
             }`}
           >
             <div
-              className={`p-3 rounded-xl max-w-[70%] ${
+              className={`p-3  max-w-[70%] ${
                 msg.autor === 'user'
-                  ? 'bg-emerald-100 dark:bg-emerald-700 text-black dark:text-white'
-                  : 'bg-white dark:bg-neutral-800 text-black dark:text-white'
+                  ? 'bg-emerald-100 rounded-xl dark:bg-emerald-700 text-zinc-950 dark:text-slate-100'
+                  : 'text-zinc-950 dark:text-slate-100 border-b-2 border-slate-200 dark:border-zinc-900'
               }`}
             >
               {msg.texto}
