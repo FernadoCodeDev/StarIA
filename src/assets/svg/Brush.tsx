@@ -1,7 +1,8 @@
 import React from "react";
-const Brush = (props) => {
-  return (
-    <svg
+import type { SVGProps } from "react";
+
+const Brush = (props: SVGProps<SVGSVGElement>) => (
+  <svg
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +25,6 @@ const Brush = (props) => {
       />
     </g>
   </svg>
-  );
-};
+);
 
 export default Brush;
