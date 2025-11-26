@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import DarkModeIcon from "../../assets/svg/DarkMode";
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,12 +26,9 @@ const DarkMode = () => {
   return (
     <button
       onClick={() => setDarkMode(!darkMode)}
+      className="w-12 h-12 cursor-pointer text-zinc-950 dark:text-slate-100"
     >
-      <img
-        src="/img/DarkMode.webp"
-        alt="DarkModeIcon"
-        className="w-8 h-auto cursor-pointer invert dark:invert-0"
-      />
+      <DarkModeIcon />
     </button>
   );
 };

@@ -1,10 +1,11 @@
 import React from "react";
-const Microphone = (props) => {
-  return (
-    <svg
+import type { SVGProps } from "react";
+
+const DarkMode = (props: SVGProps<SVGSVGElement>) => (
+  <svg
     viewBox="0 0 24 24"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    fill="none"
     {...props}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -15,15 +16,15 @@ const Microphone = (props) => {
     />
     <g id="SVGRepo_iconCarrier">
       <path
-        d="M19 10V12C19 15.866 15.866 19 12 19M5 10V12C5 15.866 8.13401 19 12 19M12 19V22M8 22H16M15 6H13M15 10H13M12 15C10.3431 15 9 13.6569 9 12V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V12C15 13.6569 13.6569 15 12 15Z"
+        fill="currentcolor"
         stroke="currentcolor"
-        strokeWidth={2}
         strokeLinecap="round"
         strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9.353 3C5.849 4.408 3 7.463 3 11.47A9.53 9.53 0 0 0 12.53 21c4.007 0 7.062-2.849 8.47-6.353C8.17 17.065 8.14 8.14 9.353 3z"
       />
     </g>
   </svg>
-  );
-};
+);
 
-export default Microphone;
+export default DarkMode;

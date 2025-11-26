@@ -1,7 +1,8 @@
 import React from "react";
-const Pencil = (props) => {
-  return (
-    <svg
+import type { SVGProps } from "react";
+
+const Pencil = (props: SVGProps<SVGSVGElement>) => (
+   <svg
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +20,5 @@ const Pencil = (props) => {
     </g>
   </svg>
   );
-};
 
 export default Pencil;
