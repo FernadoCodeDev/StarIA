@@ -17,13 +17,13 @@ import Chat from "../components/chat/Chat"
     <title>StarIA</title>
   </head>
   <body class="text-zinc-950 bg-slate-100 dark:text-slate-100 dark:bg-zinc-950">
-    <div class="flex flex-row min-h-screen">
+    <div class="flex flex-row min-h-dvh">
       <NavBar client:load />
 
-      <main class="flex flex-col flex-1 w-full min-h-screen">
+      <main class="flex flex-col w-full h-auto">
         <Header />
 
-        <div class="flex items-center justify-center flex-1">
+        <div class="flex flex-col items-center justify-center flex-1 h-full">
           <section
             class="flex flex-col items-center gap-4 w-full max-w-[50rem] p-4"
           >
