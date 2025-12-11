@@ -1,4 +1,4 @@
-![Prisma](https://github.com/FernadoCodeDev/Prisma/blob/main/public/img/imageReadme.png)
+![Prisma](https://github.com/FernandoMejiaDev/Prisma/blob/main/public/img/imageReadme.png)
 
 # **StarIA**
 
@@ -46,6 +46,7 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
 - Integrar la clave como variable de entorno en el proyecto.
 
 **StarIA** está listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
 
 
 
