@@ -14,6 +14,9 @@ importers:
       '@astrojs/tailwind':
         specifier: ^6.0.2
         version: 6.0.2(astro@5.16.5(@types/node@25.0.1)(jiti@1.21.7)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2))(tailwindcss@3.4.19(yaml@2.8.2))
+      '@netlify/functions':
+        specifier: ^5.1.2
+        version: 5.1.2
       astro:
         specifier: ^5.16.5
         version: 5.16.5(@types/node@25.0.1)(jiti@1.21.7)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2)
@@ -479,6 +482,14 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@netlify/functions@5.1.2':
+    resolution: {integrity: sha512-tpPiLSkQatuexH8AdAZ8RlALvT7ixOE9VhvpkzQGNvihcms8hzmvUDuSxQa7UneTj/sHsdirnXmnJ+nmf+Nx/w==}
+    engines: {node: '>=18.0.0'}
+
+  '@netlify/types@2.3.0':
+    resolution: {integrity: sha512-5gxMWh/S7wr0uHKSTbMv4bjWmWSpwpeLYvErWeVNAPll5/QNFo9aWimMAUuh8ReLY3/fg92XAroVVu7+z27Snw==}
+    engines: {node: ^18.14.0 || >=20}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2403,6 +2414,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@netlify/functions@5.1.2':
+    dependencies:
+      '@netlify/types': 2.3.0
+
+  '@netlify/types@2.3.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
