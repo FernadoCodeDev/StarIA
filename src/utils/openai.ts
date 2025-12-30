@@ -1,29 +1,30 @@
-const API_KEY = import.meta.env.PUBLIC_API_KEY;
+const API_KEY = import.meta.env.PUBLIC_GROQ_API_KEY;
 
-export const sendOpenAIMessage = async (message: string): Promise<string> => {
+export const sendGroqMessage = async (message: string): Promise<string> => {
   try {
-    const answer = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${API_KEY}`
-      },
-      body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
-        messages: [
-          { role: 'system', content: 'Eres un asistente útil.' },
-          { role: 'user', content: message }
-        ],
-        temperature: 0.7
-      })
-    });
+    const response = await fetch(
+      'https://api.groq.com/openai/v1/chat/completions',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${API_KEY}`
+        },
+        body: JSON.stringify({
+          model: 'openai/gpt-oss-20b',
+          messages: [
+            { role: 'system', content: 'Eres un asistente conversacional.' },
+            { role: 'user', content: message }
+          ],
+          temperature: 0.7
+        })
+      }
+    );
 
-    const data = await answer.json();
-    console.log('[DEBUG] Respuesta de OpenAI:', data);
-
+    const data = await response.json();
     return data.choices?.[0]?.message?.content?.trim() ?? 'Sin respuesta';
   } catch (error) {
-    console.error('Error al llamar a OpenAI:', error);
-    return 'Hubo un error al conectar con el modelo.';
+    console.error('Error con Groq:', error);
+    return 'Error al conectar con el modelo.';
   }
 };

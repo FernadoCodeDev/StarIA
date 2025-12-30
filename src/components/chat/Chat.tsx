@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ChatBox from './ChatBox';
-import { sendOpenAIMessage } from '../../utils/openai';
+import { sendGroqMessage } from '../../utils/openai';
 
 interface message {
   texto: string;
@@ -14,7 +14,7 @@ const Chat: React.FC = () => {
     const newMessage: message = { texto: Usermessage, autor: 'user' };
     setmessages((prev) => [...prev, newMessage]);
 
-    const respuestaBot = await sendOpenAIMessage(Usermessage);
+    const respuestaBot = await sendGroqMessage(Usermessage);
     setmessages((prev) => [...prev, { texto: respuestaBot, autor: 'bot' }]);
   };
 
