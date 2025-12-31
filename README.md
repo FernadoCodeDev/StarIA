@@ -45,7 +45,7 @@ StarIA utiliza el modelo **openai/gpt-oss-20b** a través de Groq.
 - asistentes conversacionales
 - agentes simples
 
-**Consideraciones importantes:**
+## **Consideraciones importantes:**
 - El modelo **puede cometer errores**
 - Puede generar información incorrecta o imprecisa
 - **Siempre se recomienda verificar información importante**
@@ -66,4 +66,5 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
   ```
 
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
 
