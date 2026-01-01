@@ -30,11 +30,11 @@ Decidí construir **StarIA** con el siguiente stack:
 - React para manejar componentes interactivos.
 - Tailwind CSS para el diseño responsive y estilizado profesional.
 - TypeScript para añadir tipado estático y mayor control del código.
-- API de GROQ con el modelo de OpenAI **openai/gpt-oss-20b** que es un modelo open-source orientado a conversaciones de texto, ideal para agentes conversacionales ligeros y rápidos.
+- API de **GROQ** con el modelo de OpenAI **openai/gpt-oss-20b** que es un modelo open-source orientado a conversaciones de texto, ideal para agentes conversacionales ligeros y rápidos.
 
 ## 🤖 Sobre el modelo de IA
 
-StarIA utiliza el modelo **openai/gpt-oss-20b** a través de Groq.
+StarIA utiliza el modelo **openai/gpt-oss-20b** a través de **[Groq](https://groq.com/)**.
 
 ### Características principales:
 
@@ -52,7 +52,6 @@ StarIA utiliza el modelo **openai/gpt-oss-20b** a través de Groq.
 
 > **Este proyecto no sustituye fuentes confiables ni debe usarse para decisiones críticas.** 
 
-
 Durante el desarrollo, busqué no solo resolver el desafío técnico, sino también crear una solución útil, escalable y visualmente atractiva que pueda evolucionar en futuros proyectos reales.
 
 Si deseas ver **StarIA** en funcionamiento, puedes:
@@ -66,5 +65,6 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
   ```
 
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
 
 
