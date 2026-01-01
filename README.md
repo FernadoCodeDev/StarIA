@@ -61,7 +61,7 @@ Durante el desarrollo, busqué no solo resolver el desafío técnico, sino tambi
 Si deseas ver **StarIA** en funcionamiento, puedes:
 
 - Clonar el repositorio.
-- Crear tu propia clave en https://groq.com/.
+- Crear tu propia clave en **[Groq](https://groq.com/)**.
 - Integrar la clave como variable de entorno en el proyecto.
 
   ```bash
@@ -70,6 +70,3 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. 
 
 Este proyecto fue creado como parte de una prueba técnica con fines educativos y de aprendizaje.
-
-
-
