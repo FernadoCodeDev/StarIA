@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> El modelo de **GROQ** con el modelo de OpenAI **puede cometer errores, Siempre se recomienda verificar información importante**
+> El modelo **puede cometer errores, Siempre se recomienda verificar información importante**
 
 ![StarIA](https://github.com/FernandoMejiaDev/StarIA/blob/main/public/img/imageReadme.png)
 
@@ -69,3 +69,4 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
   ```
 
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. Fue creado como una prueba técnica con fines educativos y de aprendizaje, por eso no realicé la conexión completa en producción.
+
