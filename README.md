@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> El modelo **puede cometer errores, Siempre se recomienda verificar información importante**
+> El modelo **puede cometer errores, Siempre se recomienda verificar la información **
 
 ![StarIA](https://github.com/FernandoMejiaDev/StarIA/blob/main/public/img/imageReadme.png)
 
@@ -71,4 +71,5 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. 
 
 Este proyecto fue creado como parte de una prueba técnica con fines educativos y de aprendizaje.
+
 
