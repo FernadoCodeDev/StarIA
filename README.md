@@ -3,7 +3,7 @@
 
 ![StarIA](https://github.com/FernandoMejiaDev/StarIA/blob/main/public/img/imageReadme.png)
 
-# **StarIA**
+# StarIA
 
 **StarIA** es un agente conversacional impulsado por **IA**, diseñado con la API de **GROQ** con el modelo de OpenAI **openai/gpt-oss-20b**.
 Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional, con foco en simplicidad, usabilidad y una estética profesional y moderna.
@@ -71,7 +71,3 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. 
 
 Este proyecto fue creado como parte de una prueba técnica con fines educativos y de aprendizaje.
-
-
-
-
