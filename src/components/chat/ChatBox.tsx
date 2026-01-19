@@ -1,20 +1,20 @@
-import React, { useState } from 'react'; 
-import type { FormEvent } from 'react';
-import Icons from '../ui/Icons';
-import Arrow from '../../assets/svg/Arrow';
+import React, { useState } from "react";
+import type { FormEvent } from "react";
+import Icons from "../ui/Icons";
+import Arrow from "../../assets/svg/Arrow";
 
 interface ChatBoxProps {
   onSend: (Message: string) => void;
 }
 
 const ChatBox: React.FC<ChatBoxProps> = ({ onSend }) => {
-  const [Message, setMessage] = useState('');
+  const [Message, setMessage] = useState("");
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (Message.trim() === '') return;
+    if (Message.trim() === "") return;
     onSend(Message);
-    setMessage('');
+    setMessage("");
   };
 
   return (
@@ -36,9 +36,13 @@ const ChatBox: React.FC<ChatBoxProps> = ({ onSend }) => {
         <Arrow width="28" height="28" />
       </button>
 
+      {/*
+     Static function icons, they do nothing, discard them to avoid confusion
+     
       <div className="w-full h-auto col-span-6 text-slate-100">
         <Icons />
       </div>
+      */}
     </form>
   );
 };
